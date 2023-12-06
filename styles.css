@@ -1,0 +1,95 @@
+
+body {
+    color: black; 
+    transition:color 3s;
+}
+
+body.dark-mode {
+    color: rgb(255, 255, 255); 
+}
+.dark-mode {
+    background-color: #000000; 
+    
+}
+.dark-mode p{
+    color:rgb(187, 183, 183);
+}
+.dark-mode .titular h2{
+    color:yellow;
+}
+.dark-mode .encabezado h1{
+    color: yellow;
+
+}
+
+
+.imagen img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 10px 0; 
+}
+
+
+.encabezado h1 {
+    color: #333;
+    text-align: start; 
+}
+
+
+
+.titular h2 {
+    color: #555; 
+    text-align: center; 
+
+}
+.parrafo {
+    margin: 30px;
+    color: #777; 
+    text-align: justify;
+    padding: 40px;
+    line-height: 40px;  
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+
+.light-icon,
+.dark-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+
+button {
+    background-color: rgb(236, 235, 235);
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 25px;
+    color:rgb(255, 255, 0);
+    height: 50px;
+    width: 100px;    
+    cursor: pointer;
+   
+    
+  }
+   /* Intercambiar las imagenes en el logo */
+    .dark-mode .light-icon {
+    transform: translateX(40px); 
+}
+    .dark-mode .dark-icon {
+    transform: translateX(-30px);
+}
+
+
+  .light-icon,.dark-icon {
+    height: 30px;
+    width:30px;
+
+  
+  }
+
+
+  
+
